@@ -38,5 +38,6 @@ management.security.enabled: false
 By default few endpoints are exposed. All can be exposed using below property.
 ```
 management.endpoints.web.exposure.include=*
+```
 
 [More reading](https://www.baeldung.com/spring-boot-actuators)

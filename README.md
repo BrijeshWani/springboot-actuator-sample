@@ -13,6 +13,7 @@ endpoints.beans.enabled=true
 
 ## /health Customization
 /health endpoint can be customized using HealthIndicator interface.
+Sample customized health endpoint from this project is [CustomizedHealthEndpoint.java](https://github.com/BrijeshWani/springboot-actuator-test/blob/master/src/main/java/springboot/custom/CustomizedHealthEndpoint.java)
 
 ## /info Configuration
 /info endpoint returns data from application.yml file.
@@ -24,6 +25,7 @@ Then /info endpoint will return the same in json format.
 
 ## Custom Endpoints
 You can design your own endpoints using Endpoint interface.
+Sample class file from this project is [CustomActuatorEndpoint.java](https://github.com/BrijeshWani/springboot-actuator-test/blob/master/src/main/java/springboot/custom/CustomActuatorEndpoint.java)
 
 ## Changing Actuator Endpoint Address/Port
 Actuator endpoint availability can be configured using below application.yml properties.

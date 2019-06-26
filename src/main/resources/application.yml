@@ -1,0 +1,13 @@
+spring.application.name: springboot-client
+server.port: 8999
+  
+# Change beans endpoint configuration
+endpoints.beans.id: springbeans
+endpoints.beans.sensitive: false
+endpoints.beans.enabled: true
+
+management.security.enabled: false
+
+# Change actuator address and port
+management.port: 9999
+management.address: localhost
